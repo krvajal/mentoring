@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>WANDER</title>
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    
+    <!-- style.css no pertence a bootstrap, es tu css aparte, no tiene que estar 
+    dentro de la carpeta bootstrap -->
+    <link href="bootstrap/css/style.css" rel="stylesheet" type="text/css" >
+    <!-- Favicon and apple touch icons-->
+
+    <!-- estas imagenes que estas incluyendo que son, no estan en ningun lugar para cargar -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon.ico">
+
+  </head>
+  <body class="container">
+    <header>
+      <nav id="nav_header" class="container">
+        <div class="navbar-header">
+
+          <!-- ====== -->
+          <!-- esto porque esta aca, si no se usa eliminar -->
+          <!-- ====== -->
+
+
+          <!--<button type="button" class="navbar-toggle" data-toggle="collapse"
+              data-target="#example-navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>-->
+            
+          <div class="navbar-left">
+              <a style="float:left" href="#">
+                <img id="img" src="img/icon.png" alt="">
+              </a>
+          </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navigation">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active">
+              <a  style="float:right" href="#"> <h1 class="h1_nav"> Home </h1> </a>
+            </li>
+            <li>
+              <a style="float:right" href="#"> <h1 class="h1_nav"> Places </h1> </a>
+            </li>
+            <li>
+              <a class="articles" href="#"> <h1 class="h1_nav"> Articles </h1> </a>
+            </li>
+          </ul>
+      </div>
+     </nav>
+
+     <div id="carrusel" class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img class="img_carousel" src="img/1.jpg" alt="">
+                                <div class="carousel-caption">
+                                    <h1>Lorem ipsum dolor sit amet, consectetur adipis elit. Ut pr. love pr ui.</h1>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img class="img_carousel" src="img/2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img_carousel" src="img/3.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <article class="container">
+      <h1 class="title"> Facts </h1>
+      <hr>
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+        <div class="info_article">
+          <header> <h2> 398 </h2> </header>
+          <h3>
+            In hac habitasse platea <br> dictums. <br><br> Mauris non tempor <br> quam, et laci.
+          </h3>
+          <a href="#"> <h3 class="see_more"> See more </h3> </a>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+        <div class="info_article">
+          <header> <h2> 40 </h2> </header>
+          <h3>
+            Fusce vehicula dolor <br> arcu, sit. <br><br> Nam porttitor blandit <br> accumsan.
+          </h3>
+          <a href="#"> <h3 class="see_more"> See more </h3> </a>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+        <div class="info_article">
+          <header> <h2> 6324 </h2> </header>
+          <h3>
+            Donec facilisis tortor ut <br> augue. <br><br> Cras quis nulla <br> commodo, aliqua.
+          </h3>
+          <a href="#"> <h3 class="see_more"> See more </h3> </a>
+        </div>
+      </div>
+    </article>
+
+    <article class="container">
+      <hr>
+      <h1 class="title"> News </h1>
+
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <img class="img_article" src="img/4.jpg" width="500" height="540" alt="" >
+          <h3 class="img_info">
+            Lorem ipsum dolor sit amet,<br>
+            consectetur adipiscing elit. Ut.<br><br>
+            Curabitur lobortis id lorem id bibendum.<br>
+            Ut id consectetur magna. Quisque<br>
+          </h3>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <img class="img_article" src="img/6.jpg" width="500" height="540" alt="">
+          <h3 class="img_info" >
+            Lorem ipsum dolor sit amet,<br>
+            consectetur adipiscing elit. Ut.<br><br>
+            Nam dapibus nisl vitae elit fringilla<br>
+            rutrum. Aenean sollicitudin, erat a<br>
+          </h3>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <img class="img_article" src="img/5.jpg" width="500" height="540" alt="">
+          <h3 class="img_info">
+            Lorem ipsum dolor sit amet,<br>
+            consectetur adipiscing elit. Ut.<br><br>
+            Nam dapibus nisl vitae elit fringilla<br>
+            rutrum. Aenean sollicitudin, erat a<br>
+          </h3>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <img class="img_article" src="img/2.jpg" width="500" height="540" alt="">
+          <h3 class="img_info">
+            Lorem ipsum dolor sit amet,<br>
+            consectetur adipiscing elit. Ut.<br><br>
+            Nam dapibus nisl vitae elit fringilla<br>
+            rutrum. Aenean sollicitudin, erat a<br>
+          </h3>
+        </div>
+      </div>
+
+     <div class="container">
+       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+         <button id="btn_more" type="button" name="button" >
+         <h3>
+           more
+         </h3>
+       </button>
+       </div>
+
+       <div class="container col-xs-12 col-sm-12 col-md-12 col-lg-12">
+         <h3 id="info">
+           "Donec facilisis tortor ut augue lacinia, at viverra est semper.<br><br>
+           Sed sapien metus, scelerisque nec pharetra id, tempor a tortor.<br><br>
+           Pellentesque non dignissim neque." <br><br>
+         </h3>
+       </div>
+     </div>
+    </article>
+
+    <section class="container">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div id="img_author" class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+            <img class="avatar" style="float:left;" alt="" src="img/default.jpg" />
+          </div>
+          <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+            <h3 id="name_author"> Ali benabbes </h3>
+            <h4 id="wanderer"> Wanderer </h4>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div id="newletter" class="container">
+             <h3 class="text1">For all the latest news Subscribe to our Newsletter</h3>
+          </div>
+
+        <div id="input" class="container">
+            <div id="form">
+                <div id="content" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <img id="img_email" src="img/mail.png">
+                    <input id="email" type="email" placeholder="name@server.com" autocomplete="off">
+                    <button id="button_email">
+                      <img id="img_next" src="img/next.png">
+                    </button>
+               </div>
+            </div>
+        </div >
+      </div>
+    </section>
+
+    <footer class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <hr id="delete-margin-padding-footer">
+      <nav id="nav_footer" class="container">
+
+        <div class="navbar-header">
+          <!--<button type="button" class="navbar-toggle" data-toggle="collapse"
+              data-target="#example-navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>-->
+          <div class="navbar-left">
+            <a style="float:left" href="#"> <h1 class="h1_footer"> Designed by: Ali benabbes </h1>  </a>
+          </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navigation_footer">
+          <ul class="nav navbar-nav navbar-right">
+                  <li>
+                    <a class="a_footer" style="float:right" href="#"> <h1 class="h1_footer"> Places </h1></a>
+                  </li>
+                  <li>
+                    <a class="a_footer" style="float:right" href="#"> <h1 class="h1_footer"> About </h1> </a>
+                  </li>
+                  <li>
+                    <a class="a_footer"style="float:right" href="#"> <h1 class="h1_footer"> Contacts </h1> </a>
+                  </li>
+          </ul>
+      </div>
+
+     </nav>
+    </footer>
+
+  </body>
+</html>
